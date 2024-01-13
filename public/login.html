@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="form">
+        <p id="reg">Вход в аккаунт</p>
+        <input type="text" placeholder="Введите логин" id="username">
+        <input type="password" placeholder="Введите пароль" id="password">
+        <button id="btn" onclick="registerUser()">Войти</button>
+        <p id="acc">Нет аккаунта?<a id="regbtn">Зарегистрироваться.</a></p>
+    </div>
+    <div id="regform">
+        <p id="reg">Регистрация</p>
+        <input type="text" placeholder="Введите логин" id="usernameReg">
+        <input type="password" placeholder="Введите пароль  от 4 до 8 символов" id="passwordReg">
+        <button id="btn" onclick="authUser()">Зарегистрироваться</button>
+        <p id="acc">Есть аккаунт?<a id="logbtn">Войти.</a></p>
+    </div>
+    <div id="error-container" class="error-container"></div>
+    <div id="container" style="display: none;">
+        <input type="text" id="postText" placeholder="Введите текст поста">
+        <button id="createPost" onclick="createPost()">создать пост</button>
+        <div id="post-container"></div>
+        
+    </div>
+
+<script src="script.js">
+
+</script>
+</body>
+
+</html>

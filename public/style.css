@@ -1,0 +1,84 @@
+input {
+    margin-left: 700px;
+    display: block;
+    margin-top: 50px;
+    width: 220px;
+    height: 50px;
+    border-radius: 7%;
+    border: none;
+}
+#btn {
+    width: 220px;
+    height: 50px;
+    margin-left: 702.5px;
+    margin-top: 20px;
+    border: none;
+}
+button{
+    width: 220px;
+    height: 50px;
+    border: none;
+}
+#acc{
+    margin-left: 700px;
+}
+.form > a {
+    margin-left: 700px;
+}
+#reg {
+    margin-left: 760px;
+}
+body {
+    background-color: lightgreen;
+}
+#password {
+    margin-top: 20px;
+}
+.error-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #ff5050;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+
+}
+.error-container.show {
+    display: block;
+}
+#createPost{
+    margin-left: 0;
+    margin-top: 0;
+}
+#postText{
+    margin-left: 0;
+    margin-top: 0;
+}
+#post-container{
+    margin-top: 200px;
+    display: flex;
+    margin-left: -405px;
+}
+#post-container > div{
+    border: 1px solid black;
+    margin-left: 25px;
+}
+#post-container > p{
+    margin-left: 10px;
+}
+#post-container > button{
+    margin-top: 10px;
+}
+.editInput{
+    display: flex;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+#regform{
+    display: none;
+}
