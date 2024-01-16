@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 
 const start = async () => {
     try {
-        await mongoose.connect('mongodb+srv://test:123@cluster0.vautdrq.mongodb.net/');
+        await mongoose.connect('mongodb+srv://ваша ссылка!/');
         app.listen(PORT, () => console.log('server started'));
     }
     catch(e) {
